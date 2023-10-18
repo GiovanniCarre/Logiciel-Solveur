@@ -1,0 +1,15 @@
+sp_on
+scr_bkc
+ReglesSauvegarde:
+1: !sp_on -> !vib_on ET body_st
+2: sp_on -> vib_on
+3: vib_on -> curr_pass
+
+4: scr_bk -> seals_def ET body_st
+5: seals_def ET scr_out -> body_st
+6: scr_bk ET !scr_out -> seals_def
+
+
+Variables:
+
+Paquets : 
