@@ -1,0 +1,58 @@
+toux
+fievre(elevee)
+fatigue
+respiration(faible)
+ReglesSauvegarde:
+R1: fievre(moderee) ET maux-de-tete ET diarrhee -> gastro-enterite ET intoxication-alimentaire
+R2: fievre(elevee) ET toux ET mal-de-gorge -> rhume ET grippe
+R3: fievre(elevee) ET respiration(elevee) ET toux -> pneumonie ET grippe
+R4: fievre(elevee) ET maux-de-tete ET fatigue -> grippe ET migraine
+R5: fievre(elevee) ET maux-de-ventre ET diarrhee -> gastro-enterite ET syndrome-du-colon-irritable
+R6: douleurs-abdominales ET vomissements -> gastro-enterite ET intoxication-alimentaire
+R7: fievre(moderee) ET fatigue -> rhinovirus ET maladie-virale
+R8: fievre(elevee) ET maux-de-ventre ET diarrhee -> gastro-enterite ET colite-ulcerative
+R9: fievre(elevee) ET frissons -> malaria ET grippe
+R10: fievre(elevee) ET maux-de-tete ET vomissements -> meningite ET grippe
+R11: toux ET fievre(elevee) ET respiration(faible) -> pneumonie ET insuffisance-respiratoire
+R12: douleurs-abdominales ET vomissements -> gastro-enterite ET dehydration
+R13: fievre(elevee) ET maux-de-tete -> grippe ET maux-de-gorge
+R14: maux-de-tete ET fatigue -> migraine ET stress
+R15: fievre(elevee) ET douleurs-musculaires -> grippe ET fatigue
+R16: toux ET respiration(elevee) -> bronchite ET asthme
+R17: douleurs-musculaires ET fievre(elevee) -> dengue ET fatigue
+R18: fievre(elevee) ET eruption-cutanee -> rougeole ET varicelle
+R19: respiration(faible) ET fievre(elevee) ET maux-de-tete -> grippe ET pneumonie
+R20: fievre(elevee) ET maux-de-ventre -> gastro-enterite ET colique
+R21: douleurs-abdominales ET vomissements -> gastro-enterite ET intoxication-alimentaire
+R22: fievre(moderee) ET fatigue -> rhinovirus ET maladie-virale
+R23: fievre(elevee) ET maux-de-ventre ET diarrhee -> gastro-enterite ET colite-ulcerative
+R24: fievre(elevee) ET frissons -> malaria ET grippe
+R25: fievre(elevee) ET maux-de-tete ET vomissements -> meningite ET grippe
+R26: fievre(elevee) ET toux ET douleurs-musculaires -> grippe ET rhume
+R27: fievre(elevee) ET fatigue ET perte-d'appetit -> mononucleose ET grippe
+R28: fievre(elevee) ET toux ET mal-de-gorge -> rhume ET grippe
+R29: fievre(elevee) ET maux-de-tete ET douleurs-articulaires -> grippe ET chikungunya
+R30: fievre(moderee) ET maux-de-ventre ET diarrhee -> gastro-enterite ET syndrome-du-colon-irritable
+R31: fievre(elevee) ET douleurs-articulaires -> chikungunya ET arthrite
+R32: fievre(elevee) ET maux-de-ventre ET vomissements -> gastro-enterite ET appendicite
+R33: fievre(moderee) ET maux-de-tete ET vomissements -> migraine ET intoxication-alimentaire
+R34: fievre(elevee) ET maux-de-tete ET vertiges -> grippe ET labyrinthite
+R35: fievre(elevee) ET respiration(elevee) ET douleurs-musculaires -> pneumonie ET grippe
+R36: fievre(elevee) ET toux ET perte-de-poids -> tuberculose ET cancer
+R37: fievre(elevee) ET maux-de-tete ET vertiges -> meningite ET grippe
+R38: fievre(elevee) ET fatigue ET maux-de-tete -> grippe ET rhume
+R39: fievre(elevee) ET maux-de-ventre ET diarrhee ET vomissements -> gastro-enterite ET intoxication-alimentaire
+R40: fievre(moderee) ET maux-de-tete ET fatigue -> rhinovirus ET grippe
+R41: fievre(elevee) ET toux ET mal-de-gorge -> rhume ET grippe
+R42: fievre(elevee) ET respiration(elevee) ET toux -> pneumonie ET grippe
+R43: fievre(elevee) ET maux-de-tete ET fatigue -> grippe ET migraine
+R44: fievre(elevee) ET maux-de-ventre ET diarrhee -> gastro-enterite ET syndrome-du-colon-irritable
+R45: douleurs-abdominales ET vomissements -> gastro-enterite ET intoxication-alimentaire
+R46: fievre(moderee) ET fatigue -> rhinovirus ET maladie-virale
+R47: fievre(elevee) ET maux-de-ventre ET diarrhee -> gastro-enterite ET colite-ulcerative
+R48: fievre(elevee) ET frissons -> malaria ET grippe
+R49: fievre(elevee) ET maux-de-tete ET vomissements -> meningite ET grippe
+R50: fievre(elevee) ET toux ET douleurs-musculaires -> grippe ET rhume
+Variables:
+TypeFievre: faible; moderee; elevee
+Paquets : 
