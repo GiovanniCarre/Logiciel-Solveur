@@ -1,9 +1,20 @@
-# Logiciel-Solveur
-Création d'un logiciel solveur de systèmes experts en JAVA pour un diagnostic de maladies, avec cahier des charges, documentation, guide d'installation et exemple...
-Pour executer sur Windows : 
-Si vous avez JAVA 8 ou plus : lancer le jar
+# Logiciel Solveur
 
-Sinon
-Télécharger le rar : www.sportcooks.fr/JRE.rar
+## Description
+Ce projet universitaire a pour but de développer un logiciel solveur de systèmes experts en Java, destiné au diagnostic des maladies. Il inclut un cahier des charges, une documentation complète, un guide d'installation et des exemples d'utilisation.
 
-L'extraire et ensuite placer le dossier JRE à côté du solveur.exe et lancer le solveur.exe
+## Installation
+
+### Exécution sur Windows
+Pour faire fonctionner le logiciel sur un système Windows, veuillez suivre les étapes ci-dessous :
+
+#### 1. Vérifiez votre version de Java
+- Si vous avez Java 8 ou une version plus récente, vous pouvez lancer directement le fichier `.jar`.
+
+## Documentation
+Veillez à consulter la documentation fournie pour une compréhension détaillée du logiciel, ainsi que pour des guides d'utilisation et des exemples pratiques.
+
+---
+
+Nous espérons que ce logiciel vous sera utile dans vos diagnostics de maladies ! Attention il s'agit uniquement d'un projet universitaire.
+
